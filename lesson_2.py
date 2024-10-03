@@ -1,3 +1,4 @@
+# Hi Sensei
 class Animal:
     def __init__(self, name, age):
         self.__name = name
@@ -105,3 +106,5 @@ animals_list = [cat, fish, dog, fighting_dog]
 for animal in animals_list:
     print(animal.info())
     animal.voice()
+
+# End of program
